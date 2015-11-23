@@ -21,9 +21,9 @@ public class CommandAnalyser {
 		}
 	}
 	
-	// SSA: SimpleStreamingAlgorithm
-	public String[] getParametersOfQueryForSSA() {
-		String[] parameters = xpathQuery.substring(2).split("/");
-		return parameters;
+	
+
+	public String getXmlFile() {
+		return xmlFile;
 	}
 }
